@@ -2,18 +2,52 @@
 
 import UIKit
 
-let digitNames = [
-    0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",
-    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
-]
-let numbers = [16, 58, 510]
-let strings = numbers.map {
-    (number) -> String in
-    var number = number
-    var output = ""
-    repeat {
-        output = digitNames[number % 10]! + output
-        number /= 10
-    } while number > 0
-    return output
+var x:Int = 10 //public
+
+print(x)
+
+func printval(){ //block
+    let y:Int = 12 //local
+    print(y)
+    print(x)
+    // print(z) error
 }
+
+printval()
+
+//print(y) error
+
+if (x == 10){
+   let z=x+1  //local
+    print(z)
+}
+
+
+// print(z)  // error
+
+func div(n1:Int, n2:Int){
+    do
+    { // try
+    let r=n1/n2
+    print(r)
+    }
+    catch {
+        print("cannot device by zero")
+    }
+    print("end")
+}
+
+div(n1: 4, n2: 2)
+
+// div(n1: 4, n2:0)
+
+
+
+
+
+
+
+
+
+
+
