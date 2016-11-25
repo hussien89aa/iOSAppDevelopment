@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="bestWeight" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oY3-dh-o2j">
+                                <rect key="frame" x="39" y="28" width="310" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="fS8-En-cLN"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter your height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P2Y-TO-yUj">
+                                <rect key="frame" x="39" y="79" width="310" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="0vl-uS-yCK"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdO-Fa-YlC">
+                                <rect key="frame" x="39" y="124" width="310" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zZf-o8-BfX">
+                                <rect key="frame" x="39" y="172" width="310" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="Ar1-dl-uba"/>
+                                </constraints>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLx-Yk-B2b">
+                                <rect key="frame" x="237" y="367" width="112" height="30"/>
+                                <state key="normal" title="Get Best Weight"/>
+                                <connections>
+                                    <action selector="buGetBestWeight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g8d-Ak-TQN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="your best weight is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg5-rt-xCz">
+                                <rect key="frame" x="39" y="450" width="310" height="32"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.098109817180000003" green="0.52732371789999999" blue="0.26369978589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P2Y-TO-yUj" firstAttribute="trailing" secondItem="oY3-dh-o2j" secondAttribute="trailing" id="2j8-ve-Jn3"/>
+                            <constraint firstItem="zZf-o8-BfX" firstAttribute="leading" secondItem="zdO-Fa-YlC" secondAttribute="leading" id="5TO-zf-3ZU"/>
+                            <constraint firstItem="zdO-Fa-YlC" firstAttribute="top" secondItem="P2Y-TO-yUj" secondAttribute="bottom" constant="15" id="5u9-4D-FKy"/>
+                            <constraint firstItem="zdO-Fa-YlC" firstAttribute="trailing" secondItem="P2Y-TO-yUj" secondAttribute="trailing" id="6d3-7z-MyJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eLx-Yk-B2b" secondAttribute="trailing" constant="10" id="BxB-HV-r2H"/>
+                            <constraint firstItem="yg5-rt-xCz" firstAttribute="top" secondItem="eLx-Yk-B2b" secondAttribute="bottom" constant="53" id="F3T-I3-3jK"/>
+                            <constraint firstItem="zdO-Fa-YlC" firstAttribute="leading" secondItem="P2Y-TO-yUj" secondAttribute="leading" id="Iqk-OV-Ruk"/>
+                            <constraint firstItem="zZf-o8-BfX" firstAttribute="trailing" secondItem="zdO-Fa-YlC" secondAttribute="trailing" id="JyW-Gu-ZEZ"/>
+                            <constraint firstItem="yg5-rt-xCz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="23" id="PKh-jA-nyu"/>
+                            <constraint firstItem="zZf-o8-BfX" firstAttribute="top" secondItem="zdO-Fa-YlC" secondAttribute="bottom" constant="27" id="arm-kF-cx0"/>
+                            <constraint firstItem="P2Y-TO-yUj" firstAttribute="leading" secondItem="oY3-dh-o2j" secondAttribute="leading" id="cCl-wf-sp7"/>
+                            <constraint firstItem="oY3-dh-o2j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="23" id="daN-nx-zmT"/>
+                            <constraint firstItem="P2Y-TO-yUj" firstAttribute="top" secondItem="oY3-dh-o2j" secondAttribute="bottom" constant="21" id="dxA-wt-E8a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oY3-dh-o2j" secondAttribute="trailing" constant="10" id="dzE-b7-dkO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yg5-rt-xCz" secondAttribute="trailing" constant="10" id="ewC-Zf-cXt"/>
+                            <constraint firstItem="eLx-Yk-B2b" firstAttribute="top" secondItem="zZf-o8-BfX" secondAttribute="bottom" constant="73" id="jEh-Qp-FO4"/>
+                            <constraint firstItem="oY3-dh-o2j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="mzx-n7-dAW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="PickerGender" destination="zZf-o8-BfX" id="A84-Ar-NbC"/>
+                        <outlet property="laDisplayBestWeight" destination="yg5-rt-xCz" id="dGd-hh-uH8"/>
+                        <outlet property="laSelectedGender" destination="zdO-Fa-YlC" id="WIe-Ee-xfN"/>
+                        <outlet property="txtAge" destination="oY3-dh-o2j" id="AME-Og-3UN"/>
+                        <outlet property="txtHeight" destination="P2Y-TO-yUj" id="0gn-U8-FVF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>

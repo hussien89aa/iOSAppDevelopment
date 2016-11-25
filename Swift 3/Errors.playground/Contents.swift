@@ -22,6 +22,8 @@ if (x == 10){
     print(z)
 }
 
+ 
+
 
 // print(z)  // error
 

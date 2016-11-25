@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter number one" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qkk-iU-0xy">
+                                <rect key="frame" x="23" y="49" width="328" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter number 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sFT-94-mzi">
+                                <rect key="frame" x="23" y="101" width="328" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Reulst" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c15-fa-87t">
+                                <rect key="frame" x="23" y="159" width="328" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eRu-f5-Qbe">
+                                <rect key="frame" x="130" y="212" width="89" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="W5v-OF-m17"/>
+                                </constraints>
+                                <state key="normal" title="Sum"/>
+                                <connections>
+                                    <action selector="buClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xhv-yc-e6J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c15-fa-87t" firstAttribute="top" secondItem="sFT-94-mzi" secondAttribute="bottom" constant="28" id="9kw-sT-PsO"/>
+                            <constraint firstItem="c15-fa-87t" firstAttribute="leading" secondItem="sFT-94-mzi" secondAttribute="leading" id="BmH-gz-Vud"/>
+                            <constraint firstItem="eRu-f5-Qbe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="114" id="DFh-XP-NB5"/>
+                            <constraint firstItem="eRu-f5-Qbe" firstAttribute="top" secondItem="c15-fa-87t" secondAttribute="bottom" constant="22" id="E6D-9j-y3m"/>
+                            <constraint firstItem="Qkk-iU-0xy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KmS-NL-Etj"/>
+                            <constraint firstItem="sFT-94-mzi" firstAttribute="trailing" secondItem="Qkk-iU-0xy" secondAttribute="trailing" id="MwH-Mz-jwn"/>
+                            <constraint firstItem="Qkk-iU-0xy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ZJo-9D-8Tj"/>
+                            <constraint firstItem="c15-fa-87t" firstAttribute="trailing" secondItem="sFT-94-mzi" secondAttribute="trailing" id="dJx-rs-fg6"/>
+                            <constraint firstItem="sFT-94-mzi" firstAttribute="leading" secondItem="Qkk-iU-0xy" secondAttribute="leading" id="hpw-UL-Yj5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qkk-iU-0xy" secondAttribute="trailing" constant="5" id="hqW-g2-YkX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eRu-f5-Qbe" secondAttribute="trailing" constant="140" id="nd2-sU-RcC"/>
+                            <constraint firstItem="sFT-94-mzi" firstAttribute="top" secondItem="Qkk-iU-0xy" secondAttribute="bottom" constant="22" id="qJ1-hE-ipo"/>
+                            <constraint firstItem="Qkk-iU-0xy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="tvv-OC-Szl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="laDisplay" destination="c15-fa-87t" id="f4Y-74-t0K"/>
+                        <outlet property="laNumber1" destination="Qkk-iU-0xy" id="qe7-k2-bQ2"/>
+                        <outlet property="laNumber2" destination="sFT-94-mzi" id="bnf-rQ-l8e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216.80000000000001" y="103.89805097451276"/>
+        </scene>
+    </scenes>
+</document>
