@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A2931F1DE951A800031917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A2931E1DE951A800031917 /* AppDelegate.swift */; };
+		C7A293211DE951A800031917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A293201DE951A800031917 /* ViewController.swift */; };
+		C7A293241DE951A800031917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A293221DE951A800031917 /* Main.storyboard */; };
+		C7A293261DE951A800031917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A293251DE951A800031917 /* Assets.xcassets */; };
+		C7A293291DE951A800031917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A293271DE951A800031917 /* LaunchScreen.storyboard */; };
+		C7A293311DE956EA00031917 /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A293301DE956EA00031917 /* ViewController2ViewController.swift */; };
+		C7A293331DE9582200031917 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A293321DE9582200031917 /* Animal.swift */; };
+		C7A293351DE95B5400031917 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A293341DE95B5400031917 /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7A2931B1DE951A800031917 /* ZooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A2931E1DE951A800031917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7A293201DE951A800031917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7A293231DE951A800031917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7A293251DE951A800031917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7A293281DE951A800031917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7A2932A1DE951A800031917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A293301DE956EA00031917 /* ViewController2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2ViewController.swift; sourceTree = "<group>"; };
+		C7A293321DE9582200031917 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		C7A293341DE95B5400031917 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A293181DE951A800031917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7A293121DE951A800031917 = {
+			isa = PBXGroup;
+			children = (
+				C7A2931D1DE951A800031917 /* ZooApp */,
+				C7A2931C1DE951A800031917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A2931C1DE951A800031917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2931B1DE951A800031917 /* ZooApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A2931D1DE951A800031917 /* ZooApp */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2931E1DE951A800031917 /* AppDelegate.swift */,
+				C7A293201DE951A800031917 /* ViewController.swift */,
+				C7A293221DE951A800031917 /* Main.storyboard */,
+				C7A293341DE95B5400031917 /* TableViewCell.swift */,
+				C7A293321DE9582200031917 /* Animal.swift */,
+				C7A293301DE956EA00031917 /* ViewController2ViewController.swift */,
+				C7A293251DE951A800031917 /* Assets.xcassets */,
+				C7A293271DE951A800031917 /* LaunchScreen.storyboard */,
+				C7A2932A1DE951A800031917 /* Info.plist */,
+			);
+			path = ZooApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A2931A1DE951A800031917 /* ZooApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A2932D1DE951A800031917 /* Build configuration list for PBXNativeTarget "ZooApp" */;
+			buildPhases = (
+				C7A293171DE951A800031917 /* Sources */,
+				C7A293181DE951A800031917 /* Frameworks */,
+				C7A293191DE951A800031917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZooApp;
+			productName = ZooApp;
+			productReference = C7A2931B1DE951A800031917 /* ZooApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A293131DE951A800031917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "hussien alrubaye";
+				TargetAttributes = {
+					C7A2931A1DE951A800031917 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G8V2K73GKS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7A293161DE951A800031917 /* Build configuration list for PBXProject "ZooApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7A293121DE951A800031917;
+			productRefGroup = C7A2931C1DE951A800031917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A2931A1DE951A800031917 /* ZooApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7A293191DE951A800031917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A293291DE951A800031917 /* LaunchScreen.storyboard in Resources */,
+				C7A293261DE951A800031917 /* Assets.xcassets in Resources */,
+				C7A293241DE951A800031917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A293171DE951A800031917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A293351DE95B5400031917 /* TableViewCell.swift in Sources */,
+				C7A293211DE951A800031917 /* ViewController.swift in Sources */,
+				C7A293331DE9582200031917 /* Animal.swift in Sources */,
+				C7A293311DE956EA00031917 /* ViewController2ViewController.swift in Sources */,
+				C7A2931F1DE951A800031917 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7A293221DE951A800031917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A293231DE951A800031917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7A293271DE951A800031917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A293281DE951A800031917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7A2932B1DE951A800031917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7A2932C1DE951A800031917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A2932E1DE951A800031917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8V2K73GKS;
+				INFOPLIST_FILE = ZooApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alrubaye.net.ZooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C7A2932F1DE951A800031917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8V2K73GKS;
+				INFOPLIST_FILE = ZooApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alrubaye.net.ZooApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A293161DE951A800031917 /* Build configuration list for PBXProject "ZooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A2932B1DE951A800031917 /* Debug */,
+				C7A2932C1DE951A800031917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A2932D1DE951A800031917 /* Build configuration list for PBXNativeTarget "ZooApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A2932E1DE951A800031917 /* Debug */,
+				C7A2932F1DE951A800031917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7A293131DE951A800031917 /* Project object */;
+}

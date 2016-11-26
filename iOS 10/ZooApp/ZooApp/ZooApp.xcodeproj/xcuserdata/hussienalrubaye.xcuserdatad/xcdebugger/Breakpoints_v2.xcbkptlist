@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZooApp/ViewController2ViewController.swift"
+            timestampString = "501831926.463077"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController2ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZooApp.ViewController2ViewController.notkillerAnimal.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "ZooApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/ZooApp/ZooApp/ZooApp/ViewController2ViewController.swift"
+                  timestampString = "501831926.934179"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZooApp.ViewController2ViewController.notkillerAnimal.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "ZooApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/ZooApp/ZooApp/ZooApp/ViewController2ViewController.swift"
+                  timestampString = "501831926.937898"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZooApp.ViewController2ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ZooApp.ViewController2ViewController"
+                  moduleName = "ZooApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/ZooApp/ZooApp/ZooApp/ViewController2ViewController.swift"
+                  timestampString = "501831926.939362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ZooApp.ViewController2ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ZooApp.ViewController2ViewController&gt;"
+                  moduleName = "ZooApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/ZooApp/ZooApp/ZooApp/ViewController2ViewController.swift"
+                  timestampString = "501831926.9406"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
