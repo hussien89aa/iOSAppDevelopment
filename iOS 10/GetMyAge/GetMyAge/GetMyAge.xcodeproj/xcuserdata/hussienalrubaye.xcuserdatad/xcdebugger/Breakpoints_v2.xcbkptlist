@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetMyAge/ViewController.swift"
+            timestampString = "501821611.491741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetMyAge.ViewController.__deallocating_deinit"
+                  moduleName = "GetMyAge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/GetMyAge/GetMyAge/GetMyAge/ViewController.swift"
+                  timestampString = "501821612.250863"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetMyAge.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GetMyAge.ViewController"
+                  moduleName = "GetMyAge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/GetMyAge/GetMyAge/GetMyAge/ViewController.swift"
+                  timestampString = "501821612.262352"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetMyAge.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; GetMyAge.ViewController"
+                  moduleName = "GetMyAge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/GetMyAge/GetMyAge/GetMyAge/ViewController.swift"
+                  timestampString = "501821612.265608"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetMyAge.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GetMyAge.ViewController&gt;"
+                  moduleName = "GetMyAge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/GetMyAge/GetMyAge/GetMyAge/ViewController.swift"
+                  timestampString = "501821612.267278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GetMyAge.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;GetMyAge.ViewController&gt;"
+                  moduleName = "GetMyAge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hussienalrubaye/Documents/Xcode/iOSAppDevelopment/iOS%2010/GetMyAge/GetMyAge/GetMyAge/ViewController.swift"
+                  timestampString = "501821612.268539"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GetMyAge/ViewController.swift"
+            timestampString = "501822307.440583"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "buGetAge(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
