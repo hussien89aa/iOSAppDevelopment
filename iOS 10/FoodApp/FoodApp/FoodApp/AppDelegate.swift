@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  StoryApp
+//  FoodApp
 //
-//  Created by hussien alrubaye on 11/26/16.
+//  Created by hussien alrubaye on 11/27/16.
 //  Copyright © 2016 hussien alrubaye. All rights reserved.
 //
 

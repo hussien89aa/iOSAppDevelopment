@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>StoryApp.xcscheme</key>
+		<key>FoodApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C7DDBADB1DE9FDAB00404E6C</key>
+		<key>C75037D21DEB4C1100B56A03</key>
 		<dict>
 			<key>primary</key>
 			<true/>
