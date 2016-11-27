@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>Name</key>
+        <string>Coffee</string>
+        <key>Image</key>
+        <string>coffee_pot</string>
+        <key>Des</key>
+        <string>
+            Coffee preparation is the process of turning coffee beans into a beverage. While the particular steps vary with the type of coffee and with the raw materials, the process includes four basic steps; raw coffee beans must be roasted, the roasted coffee beans must then be ground, the ground coffee must then be mixed with hot water for a certain time (brewed), and finally the liquid coffee must be separated from the used grounds.
+        </string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Espresso</string>
+        <key>Image</key>
+        <string>espresso</string>
+        <key>Des</key>
+        <string>
+            Espresso’s authentic formula is clear and basic, its proper execution a matter of training, experience and natural talent.  A jet of hot water at 88°-93°C (190°-200°F) passes under a pressure of nine or more atmospheres through a seven-gram (.25 oz) cake-like layer of ground and tamped coffee. Done right, the result is a concentrate of not more than 30 ml (one oz) of pure sensorial pleasure.
+        </string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>French fries</string>
+        <key>Image</key>
+        <string>french_fries</string>
+        <key>Des</key>
+        <string>
+            Heat a few inches of vegetable oil to 300 degrees F in a heavy pot. In 3 or 4 batches, fry the potatoes about 4 to 5 minutes per batch, or until soft. They should not be brown at all at this point-you just want to start the cooking process. Remove each batch and drain them on new, dry paper towels.
+        </string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Honey</string>
+        <key>Image</key>
+        <string>honey</string>
+        <key>Des</key>
+        <string>
+            While it is less likely that anyone would do this on their own if they are not a beekeeper, this might be useful for those who aspire to become one.
+            Bees are really great and easy to keep, even in the urban environment! As Novella Carpenter calls them, bees are "gateway animal for urban farmers". All you need is some space in the backyard/deck.
+            The process of honey harvesting and extraction most likely happens on a separate days. These are the tools required:
+            
+        </string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Strawberry ice cream</string>
+        <key>Image</key>
+        <string>strawberry_ice_cream</string>
+        <key>Des</key>
+        <string>
+            Preparation. Coarsely mash strawberries with sugar, lemon juice, and salt using a potato masher in a large bowl. Let stand, stirring and mashing occasionally, 10 minutes. Transfer half of strawberry mixture to a blender and purée with cream until smooth. Freeze mixture in ice cream maker.
+        </string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Sugar cubes</string>
+        <key>Image</key>
+        <string>sugar_cubes</string>
+        <key>Des</key>
+        <string>Sugar cubes are extremely simple to make at home - all you need is sugar and water. In addition to standard cubes, you can add color and flavor to add fun flair to a tea party or another gathering. Learn how to make sugar cubes using two different methods: using a pan in the oven or an ice cube tray you leave out overnight.
+        </string>
+    </dict>
+</array>
+</plist>
