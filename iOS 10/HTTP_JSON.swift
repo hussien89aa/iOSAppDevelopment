@@ -1,7 +1,9 @@
- FoodURL url
- http://swift3Foodapp.alruabye.net/MobileWebService3.asmx/GetNewsNow?UserID=21153&StratFrom=1&EndTo=20&SubNesourceID=0&NewsID=0&Type=0&q=%40
- details
- http://swift3Foodapp.alruabye.net/NewsDetails.aspx?NID="+NewsID+"&id="+ GlobalClass.UserID + "&share=no"
+ //FoodURL url
+ //http://attach.alruabye.net/iOSAppDevelopment/GetFood.json
+ 
+// http://swift3Foodapp.alruabye.net/MobileWebService3.asmx/GetNewsNow?UserID=21153&StratFrom=1&EndTo=20&SubNesourceID=0&NewsID=0&Type=0&q=%40
+ //details
+ //http://swift3Foodapp.alruabye.net/NewsDetails.aspx?NID="+NewsID+"&id="+ GlobalClass.UserID + "&share=no"
 
  func LoadJSONFromURL(path:String){
          let url = URL(string: path)!
