@@ -26,39 +26,33 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="38Y-DU-Qu9">
-                                    <size key="itemSize" width="241" height="235"/>
+                                    <size key="itemSize" width="158" height="154"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="3l0-ND-xUh" customClass="CollectionViewCell" customModule="FoodApp" customModuleProvider="target">
-                                        <rect key="frame" x="67" y="10" width="241" height="235"/>
+                                        <rect key="frame" x="10" y="10" width="158" height="154"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="241" height="235"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="158" height="154"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wr-4A-Zyz">
-                                                    <rect key="frame" x="17" y="188" width="216" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wr-4A-Zyz">
+                                                    <rect key="frame" x="8" y="125" width="150" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="coffee_pot" translatesAutoresizingMaskIntoConstraints="NO" id="HuD-yl-xA4">
-                                                    <rect key="frame" x="8" y="20" width="225" height="153"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coffee_pot" translatesAutoresizingMaskIntoConstraints="NO" id="HuD-yl-xA4">
+                                                    <rect key="frame" x="23" y="17" width="120" height="91"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="HuD-yl-xA4" firstAttribute="trailing" secondItem="3l0-ND-xUh" secondAttribute="trailingMargin" id="HW5-Kt-UJm"/>
-                                            <constraint firstItem="1wr-4A-Zyz" firstAttribute="top" secondItem="HuD-yl-xA4" secondAttribute="bottom" constant="15" id="Og2-RE-oto"/>
-                                            <constraint firstItem="HuD-yl-xA4" firstAttribute="leading" secondItem="3l0-ND-xUh" secondAttribute="leadingMargin" id="eNH-5f-loM"/>
-                                            <constraint firstItem="1wr-4A-Zyz" firstAttribute="trailing" secondItem="HuD-yl-xA4" secondAttribute="trailing" id="iaQ-IU-0BA"/>
-                                            <constraint firstItem="HuD-yl-xA4" firstAttribute="top" secondItem="3l0-ND-xUh" secondAttribute="topMargin" constant="12" id="mrD-T3-ifx"/>
-                                            <constraint firstItem="1wr-4A-Zyz" firstAttribute="leading" secondItem="HuD-yl-xA4" secondAttribute="leading" id="xtY-4O-7Xt"/>
-                                        </constraints>
                                         <connections>
                                             <outlet property="laImage" destination="HuD-yl-xA4" id="RKe-bE-fun"/>
                                             <outlet property="laName" destination="1wr-4A-Zyz" id="ar0-BY-akx"/>
