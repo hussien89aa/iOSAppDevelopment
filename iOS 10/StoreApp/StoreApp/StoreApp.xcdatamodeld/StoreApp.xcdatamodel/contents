@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Items" representedClassName="Items" syncable="YES" codeGenerationType="class">
+        <attribute name="date_add" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="item_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toStore" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="StoreType" inverseName="toItems" inverseEntity="StoreType" syncable="YES"/>
+    </entity>
+    <entity name="StoreType" representedClassName="StoreType" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="toItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Items" inverseName="toStore" inverseEntity="Items" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="StoreType" positionX="-65" positionY="-18" width="128" height="73"/>
+        <element name="Items" positionX="205" positionY="9" width="128" height="103"/>
+    </elements>
+</model>
