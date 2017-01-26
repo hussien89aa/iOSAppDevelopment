@@ -38,7 +38,6 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="223" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iWd-Kk-F9K">
                                 <rect key="frame" x="0.0" y="72" width="375" height="595"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="separatorColor" red="0.0" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="223" id="I0B-3k-crz" customClass="TableViewCell" customModule="StoreApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="223"/>
@@ -99,6 +98,7 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iWd-Kk-F9K" secondAttribute="bottom" id="0c5-WR-hZ0"/>
                             <constraint firstAttribute="trailing" secondItem="uJ8-UW-qro" secondAttribute="trailing" id="1Zb-8e-CL0"/>
@@ -152,9 +152,9 @@
                                                     <action selector="BuSave:" destination="phB-Nb-hkd" id="0jM-QI-HrD"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem systemItem="trash" id="y94-81-7XB">
+                                            <barButtonItem systemItem="trash" id="UI5-MC-YHB">
                                                 <connections>
-                                                    <action selector="BuDelete:" destination="phB-Nb-hkd" id="oDh-gC-gR5"/>
+                                                    <action selector="BuDelete:" destination="phB-Nb-hkd" id="3qq-fO-oT6"/>
                                                 </connections>
                                             </barButtonItem>
                                         </rightBarButtonItems>
@@ -251,6 +251,7 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="fC2-IJ-8lK" secondAttribute="trailing" id="0fK-xP-7dq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="N25-qX-ZT4" secondAttribute="trailing" constant="6" id="G9w-m1-7e2"/>

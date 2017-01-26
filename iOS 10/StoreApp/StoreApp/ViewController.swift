@@ -45,7 +45,8 @@ class ViewController: UIViewController,UITableViewDelegate,
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let objc=controller.fetchedObjects{
+    
+        if  let objc=controller.fetchedObjects{
             let item=objc[indexPath.row]
             performSegue(withIdentifier: "EditOrDelete", sender: item)
         }
@@ -63,7 +64,7 @@ class ViewController: UIViewController,UITableViewDelegate,
     func loadIetms() {
    
         let fetchRequest:NSFetchRequest<Items>=Items.fetchRequest()
-        let  date_addSort=NSSortDescriptor(key: "date_add", ascending: true)
+        let  date_addSort=NSSortDescriptor(key: "date_add", ascending: false)
         fetchRequest.sortDescriptors=[date_addSort]
         controller=NSFetchedResultsController(fetchRequest:fetchRequest , managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
         controller.delegate=self

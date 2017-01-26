@@ -77,12 +77,10 @@ UIImagePickerControllerDelegate,UINavigationControllerDelegate{
     @IBAction func BuSave(_ sender: Any) {
       
         let newItem:Items!
-        if EditOrDeleteItem == nil{
-            // new item
-            newItem=Items(context: context)
+        if EditOrDeleteItem == nil {
+           newItem=Items(context: context)
         }else{
-            //edit
-            newItem=EditOrDeleteItem
+           newItem=EditOrDeleteItem
         }
             
         
@@ -100,32 +98,33 @@ UIImagePickerControllerDelegate,UINavigationControllerDelegate{
         }
     }
     
-    func LoadForEdit(){
-        if let item=EditOrDeleteItem {
-            txtToolName.text=item.item_name
-            ivToolImage.image=item.image as? UIImage
-            if let store = item.toStore{
+    func   LoadForEdit() {
+        if let item = EditOrDeleteItem{
+           txtToolName.text=item.item_name
+           ivToolImage.image=item.image as? UIImage
+            
+            if let store=item.toStore {
                 var index=0
-                repeat{
+                while index<ListStoreType.count {
                     let row=ListStoreType[index]
-                    if row.name==store.name {
-                       pvSotreType.selectRow(index, inComponent: 0, animated: false)
-                        break
+                    if row.name==store.name{
+                        pvSotreType.selectRow(index, inComponent: 0, animated: false)
                     }
                     index=index+1
-                }while (index<ListStoreType.count)
+                }
             }
         }
+       
     }
     
     
     @IBAction func BuDelete(_ sender: Any) {
-        if let item = EditOrDeleteItem {
-            context.delete(item )
+        if EditOrDeleteItem != nil{
+            context.delete(EditOrDeleteItem! )
             ad.saveContext()
+          _ =  navigationController?.popViewController(animated: true)
+            dismiss(animated: true, completion: nil)
         }
-        
-  _ =  navigationController?.popViewController(animated: true)
-        dismiss(animated: true, completion: nil)
     }
+ 
 }

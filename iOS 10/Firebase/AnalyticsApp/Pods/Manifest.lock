@@ -1,0 +1,37 @@
+PODS:
+  - Firebase/AdMob (3.2.0):
+    - Firebase/Analytics (= 3.2.0)
+    - Google-Mobile-Ads-SDK (= 7.8.1)
+  - Firebase/Analytics (3.2.0):
+    - FirebaseAnalytics (= 3.2.0)
+  - Firebase/Core (3.2.0):
+    - Firebase/Analytics (= 3.2.0)
+  - FirebaseAnalytics (3.2.0):
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.3)
+  - FirebaseInstanceID (1.0.6)
+  - Google-Mobile-Ads-SDK (7.8.1)
+  - GoogleInterchangeUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.1)
+  - GoogleUtilities (1.3.1):
+    - GoogleSymbolUtilities (~> 1.0)
+
+DEPENDENCIES:
+  - Firebase/AdMob
+  - Firebase/Core
+
+SPEC CHECKSUMS:
+  Firebase: 6d4012da1598732a2b43f16d8355eca90f94ed59
+  FirebaseAnalytics: 6f75b04e6bfb8e0b6e9ef298e04c24eea3b13863
+  FirebaseInstanceID: d014d574053a2fe84478f12f7bae96979e7051bb
+  Google-Mobile-Ads-SDK: 3c2a6656117989469bfe7645640aa1de024a4c6c
+  GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
+  GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
+  GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+
+PODFILE CHECKSUM: 9b3a8566dc2f1e54493e2661a958fc626c1fafea
+
+COCOAPODS: 1.0.0
