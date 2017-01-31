@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>899667380741-gr05c32js9702v8o3nhrqlsqillqejud.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.899667380741-gr05c32js9702v8o3nhrqlsqillqejud</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDNxGXOEedRh9OXH9iw2C1tqfGAu4srm4Y</string>
+	<key>GCM_SENDER_ID</key>
+	<string>899667380741</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alrubaye.net.NotifyApp</string>
+	<key>PROJECT_ID</key>
+	<string>demoyoutubeios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>demoyoutubeios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:899667380741:ios:b64e1a05ee1d47a0</string>
+	<key>DATABASE_URL</key>
+	<string>https://demoyoutubeios.firebaseio.com</string>
+</dict>
+</plist>
